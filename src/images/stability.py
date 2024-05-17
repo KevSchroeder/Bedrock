@@ -7,7 +7,7 @@ client = boto3.client(service_name='bedrock-runtime', region_name="us-east-1")
 stability_image_config = json.dumps({
     "text_prompts": [
         {
-            "text": 'a photo of a phoenix rising from the ashes',
+            "text": 'Zeus on top of the cloud fighting Hades',
         }
     ],
     "height": 512,
